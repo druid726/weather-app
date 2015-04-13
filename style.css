@@ -1,0 +1,32 @@
+
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px;
+  background: rgba(66, 45, 63, 0.5);
+}
+.map {
+  text-align: center;
+}
+.map h1 {
+  font-size: 1.5em;  
+}
+.col-1 {
+  float: left;
+  width: 18%;
+}
+[class*="col-"] {
+  margin-left: 2%;
+}
+.first {
+  margin-left: 0;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
